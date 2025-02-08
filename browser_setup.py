@@ -9,7 +9,7 @@ async def get_browser_and_page(chrome_path: str, url: str):
             "--disable-setuid-sandbox",
             "--disable-gpu",
             "--disable-extensions",
-            "--disable-images",  # Disable images for faster loading
+            "--disable-images", 
             "--disable-features=site-per-process",
             "--disable-infobars",
         ],
