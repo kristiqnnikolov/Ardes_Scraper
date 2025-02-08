@@ -5,7 +5,6 @@ import json
 
 
 async def main():
-    """Main function to orchestrate the scraping process."""
     scraped_items = 0  
     laptops = [] 
 
